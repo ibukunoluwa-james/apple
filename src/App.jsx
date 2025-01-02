@@ -1,18 +1,17 @@
-
-import React from 'react'
-import './App.css'
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Highlights from './components/Highlights';
-import Model from './components/Model';
-import Features from './components/Features';
-import Chip from './components/Chip';
-import Footer from './components/Footer';
+import React from "react";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Highlights from "./components/Highlights";
+import Model from "./components/Model";
+import Features from "./components/Features";
+import Chip from "./components/Chip";
+import Footer from "./components/Footer";
 
 function App() {
-
   return (
     <main className="bg-black">
+      {/* increase the width of some sections to span the whole page such as the Highlights and Features sections */}
       <Navbar />
       <Hero />
       <Highlights />
@@ -21,8 +20,7 @@ function App() {
       <Chip />
       <Footer />
     </main>
-  
-  )
+  );
 }
 
-export default App
+export default App;
